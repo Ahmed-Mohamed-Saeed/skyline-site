@@ -1,0 +1,62 @@
+@import "./main.css";
+body.login-page {
+   background-color: var(--section-color);
+   color: #333 !important;
+}
+/* Log in Form */
+.close-form i {
+   cursor: pointer;
+}
+.form-hero {
+   width: 708px;
+   max-width: 100%;
+   min-height: 50%;
+   background-color: var(--bs-white);
+   padding: 2rem 1rem;
+   border-radius: 10px;
+}
+.form-hero p.horiz {
+   position: relative;
+}
+.form-hero p.horiz::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+   width: 45%;
+   height: .1px;
+   background-color: #D2D2D2;
+}
+.form-hero p.horiz::after {
+   content: '';
+   position: absolute;
+   top: 50%;
+   right: 0;
+   transform: translateY(-50%);
+   width: 45%;
+   height: .1px;
+   background-color: #D2D2D2;
+}
+.form-hero .btn-social {
+   background-color: var(--bs-white);
+   color: #000;
+   border: 1px solid #D2D2D2;
+   padding: .5rem 1rem;
+   margin: .5rem 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.form-hero .google {
+   margin-right: -26px;
+}
+.form-hero a {
+   color: #0085FF;
+   width: fit-content;
+}
+@media (max-width:767.98px) {
+   :root {
+      font-size: 12px;
+   }
+}

@@ -1,0 +1,10 @@
+body.create-page {
+   background-color: var(--section-color);
+   color: #333 !important;
+}
+.create-page .form-hero {
+   padding: .5rem 1rem;
+}
+:root {
+   font-size: 13px;
+}

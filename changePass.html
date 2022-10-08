@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ar">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="description site" />
+      <meta name="keywords" content="keywords 65" />
+      <title>تغير الباسورد</title>
+       <!-- animation css file -->
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+      <!-- Font Awesome -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap 5 Cdn File -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.rtl.min.css"
+      />
+      <!-- Custome Css File -->
+      <link rel="stylesheet" href="./css/main.css" />
+   </head>
+   <body dir="rtl" class="res-pass">
+      <section class="overflow-hidden">
+         <section
+            class="min-vh-100 d-flex align-items-center justify-content-center animate__animated animate__zoomInRight"
+         >
+            <div class="form-hero">
+               <div class="close-form clearfix">
+                  <i class="fa-solid fa-xmark float-end" id="closeForm"></i>
+               </div>
+               <form action=""
+               id="changePassForm">
+                  <div class="form-contact w-75 mx-auto vstack">
+                     <div class="hstack">
+                        <i class="fa-solid fa-arrow-right "></i>
+                        <h6 class="mb-0 ms-2 fw-bolder">تغيير كلمة المرور</h6>
+                     </div>
+                     <p class="small">قم بإنشاء كلمة المرور الجديدة</p>
+                     <input type="password" name="new-password"  class="form-control my-2 py-2" placeholder="كلمة المرور الجديد" required>
+                     <input type="password" name="new-password"  class="form-control mb-5 py-2"  placeholder="كلمة المرور الجديد" required>
+                     <button type="submit" class="btn-main py-2">
+                        تغير كلمة المرور
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </section>
+      </section>
+       <!-- Animation AOS -->
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!-- Bootstrap 5 Cdn Js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/js/bootstrap.bundle.min.js"></script>
+      <!-- Custome Js File -->
+      <script type="module" src="./js/main.js"></script>
+   </body>
+</html>

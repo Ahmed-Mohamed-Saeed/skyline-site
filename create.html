@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="description site" />
+      <meta name="keywords" content="keywords 65" />
+      <title>تسجيل الدخول</title>
+         <!-- animation css file -->
+         <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+       />
+      <!-- Font Awesome -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap 5 Cdn File -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.rtl.min.css"
+      />
+      <!-- Custome Css File -->
+      <link rel="stylesheet" href="./css/main.css" />
+   </head>
+   <body dir="rtl" class="create-page">
+      <section  class="overflow-hidden">
+         <section
+            class="min-vh-100 d-flex align-items-center justify-content-center animate__animated animate__fadeInBottomLeft"
+         >
+            <div class="form-hero">
+               <div class="container">
+                  <div class="close-form clearfix">
+                     <i class="fa-solid fa-xmark float-end" id="closeForm"></i>
+                  </div>
+                  <form action="">
+                     <div class="form-info w-75 mx-auto vstack">
+                        <h4 class="fw-bold">أنشاء حساب جديد</h4>
+                        <p class="small">أدخل المعلومات المطلوبة لانشاء حسابك</p>
+                        <input
+                           type="text"
+                           name="user-name"
+                           class="form-control text-start my-2"
+                           placeholder="اسم المستخدم"
+                           required
+                        />
+                        <input
+                           type="text"
+                           name="userF"
+                           class="form-control text-start my-2"
+                           placeholder="اسم المستخدم الاول"
+                           required
+                        />
+                        <input
+                           type="text"
+                           name="email-login"
+                           class="form-control text-start my-2"
+                           placeholder="اسم المستخدم الاخير"
+                           required
+                        />
+                        <input
+                           type="email"
+                           name="email-login"
+                           class="form-control text-start my-2"
+                           placeholder="البريد الالكتروني"
+                           required
+                        />
+                        <div class="phone-restore d-md-flex">
+                           <select
+                              class="form-select mb-2 mb-md-0"
+                              aria-label=".form-select-sm example"
+                              required
+                           >
+                              <option selected>رمز المنطقة</option>
+                              <option value="1">002</option>
+                              <option value="2">002</option>
+                              <option value="3">002</option>
+                           </select>
+                           <input
+                              type="tel"
+                              name="phone"
+                              class="form-control ms-md-2 text-start"
+                              placeholder="رقم الهاتف"
+                              required
+                           />
+                        </div>
+                        <input
+                           type="email"
+                           name="email-login"
+                           class="form-control text-start my-2"
+                           placeholder="كلمة المرور"
+                           required
+                        />
+                        <div class="form-check mt-2">
+                           <input
+                              type="checkbox"
+                              name=""
+                              class="form-check-input"
+                              value="s1"
+                              id="checkBox1"
+                              required
+                           />
+                           <label for="checkBox1" class="form-check-label small">
+                              أرسل لي عبر البريد الإلكتروني تحديثات المنصة، وآخر
+                              الأخبار.</label
+                           >
+                        </div>
+                        <div class="form-check mb-2">
+                           <input
+                              type="checkbox"
+                              name=""
+                              class="form-check-input"
+                              value="s1"
+                              id="checkBox2"
+         
+                           />
+                           <label for="checkBox2" class="form-check-label small"
+                              >بالضغط على التسجيل أنا أوافق على شروط الخدمة و سياسة
+                              الخصوصية.</label
+                           >
+                        </div>
+                        <button type="submit" class="btn-main py-2 my-1">
+                           سجل الأن
+                        </button>
+                        <p class="horiz text-center my-3">أو</p>
+                        <button class="btn-main btn-social">
+                           <div>
+                              <img
+                                 src="./images/face.png"
+                                 alt="facebook logo"
+                                 class="mx-2"
+                              />
+                              <span class="small"
+                                 >تسجيل دخول باستخدام الفيسبوك</span
+                              >
+                           </div>
+                        </button>
+                        <button class="btn-s btn-main btn-social">
+                           <div class="google">
+                              <img
+                                 src="./images/Group.png"
+                                 alt="google photo"
+                                 class="mx-2"
+                              />
+                              <span class="small">تسجيل دخول باستخدام قوقل</span>
+                           </div>
+                        </button>
+                       <p> هل لديك حساب ؟ <a href="login.html"> قم بتسجيل دخولك الآن </a></p>
+         
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </section>
+      <!-- Custome Js File -->
+      <script type="module" src="./js/main.js"></script>
+   </body>
+</html>

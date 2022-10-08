@@ -1,0 +1,22 @@
+body.res-pass {
+   background-color: var(--section-color);
+   color: #333 !important;
+}
+.form-hero h6 {
+   font-size: calc(24 / 16 * 1rem);
+}
+.form-hero p.replace-num {
+   color: var(--primary-color);
+}
+.form-hero .fa-arrow-right.click {
+   cursor: pointer;
+}
+.form-hero select {
+   width: 130px;
+   color: #8c8787;
+}
+@media (max-width: 767.98px) {
+   .form-hero select {
+      width: 100%
+   }
+}

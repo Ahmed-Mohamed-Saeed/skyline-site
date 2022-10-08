@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="description site" />
+      <meta name="keywords" content="keywords 65" />
+      <title>تسجيل الدخول</title>
+       <!-- animation css file -->
+       <link
+       rel="stylesheet"
+       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+      <!-- Font Awesome -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+         rel="stylesheet"
+      />
+      <!-- Bootstrap 5 Cdn File -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0-beta1/css/bootstrap.rtl.min.css"
+      />
+      <!-- Custome Css File -->
+      <link rel="stylesheet" href="./css/main.css" />
+   </head>
+   <body dir="rtl" class="login-page ">
+      <main  class="overflow-hidden">
+         <section class="min-vh-100 d-flex align-items-center justify-content-center animate__animated animate__bounceInUp ">
+            <div class="form-hero">
+               <div class="container">
+                  <div class="close-form clearfix">
+                     <i class="fa-solid fa-xmark float-end" id="closeForm"></i>
+                  </div>
+                  <form action="">
+                     <div class="form-info w-75 mx-auto vstack">
+                        <h4 class="fw-bold">تسجيل الدخول</h4>
+                        <p class="small">أدخل البريد الالكتروني وكلمة المرور</p>
+                        <input
+                           type="email"
+                           name="email-login"
+                           class="form-control text-start my-2  "
+                           placeholder="البريد الالكتروني"
+                           required
+                        />
+                        <input
+                           type="password"
+                           name="password-login"
+                           class="form-control  "
+                           placeholder="كلمة المرور"
+                           required
+                        />
+                        <div class="my-2 form-check">
+                           <input type="checkbox" name="remember-me" class="form-check-input" id="checkRe" />
+                           <label for="checkRe" class="form-check-label">تذكرني</label>
+         
+                        </div>
+                        <button type="submit" class="btn-main py-2 my-1 ">
+                           تسجيل الدخول
+                        </button>
+                        <p class="horiz text-center my-3">أو</p>
+                        <button class="btn-main btn-social">
+                          <div>
+                           <img src="./images/face.png" alt="facebook logo" class="mx-2">
+                           <span class="small">تسجيل دخول باستخدام الفيسبوك</span>
+                          </div>
+                        </button>
+                        <button class="btn-s btn-main btn-social" >
+                          <div class="google">
+                           <img src="./images/Group.png" alt="google photo"class="mx-2" >
+                           <span class="small">تسجيل دخول باستخدام قوقل</span>
+                          </div>
+                        </button>
+                        <a href="./respass.html" class="mt-2">
+                           نسيت كلمة المرور ؟
+                        </a>
+                        <a href="./create.html">
+                           أَنشِئ حساب الآن
+                        </a>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </section>
+      </main>
+       <!-- Animation AOS -->
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <!-- Custome Js File -->
+      <script type="module" src="./js/main.js"></script>
+   </body>
+</html>

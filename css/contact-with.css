@@ -1,0 +1,90 @@
+@import url("./main.css");
+.contact__with-page .swiper {
+   height: 100vh;
+   width: 100%;
+}
+.contact__with-page .swiper img {
+   background-image: linear-gradient(#d7e8f0, #fff);
+   border-radius: 50%;
+   padding: 20px;
+   outline: 5px solid #d7e8f023;
+   outline-offset: 30px;
+}
+.contact__with-page .swiper-pagination-bullet-active-main {
+   width: 30px;
+   border-radius: 5px;
+   background-color: #fff;
+}
+.contact__with-page .swiper-slide {
+   background-image: url("../images/contact-with.png");
+}
+.contact__with-page .swiper-pagination {
+   bottom: 50px !important;
+}
+.contact__with-page .swiper .social {
+   bottom: 10px;
+   z-index: 999;
+   font-size: 18px;
+}
+.contact__with-page .swiper .social a {
+   color: #fff;
+   margin-left: 10px;
+   transition: color 0.3s;
+}
+.contact__with-page .swiper .social a:hover {
+   color: var(--secondary-color);
+}
+.contact__with-page .icon-item {
+   display: grid;
+   place-items: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin: 0 auto;
+}
+.contact__with-page .image {
+   background-color: var(--main-color);
+
+   color: #fff;
+}
+.contact__with-page .image-1 {
+   color: var(--main-color);
+   border: 1px solid var(--main-color);
+   background-color: white;
+}
+.contact__with-page .sub-title::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 50%;
+   transform: translateY(-50%);
+   width: 65%;
+   left: calc(35% / 2);
+   height: 1px;
+   background-image: linear-gradient(
+      to right,
+      var(--main-color) 50%,
+      white 50%
+   );
+   margin-top: -10px;
+   background-size: 20px;
+   z-index: -1;
+}
+.contact__with-page label.btn-main {
+   background-color: #515d791c;
+   color: var(--main-color);
+   cursor: pointer;
+}
+.contact__with-page .system input:checked + label {
+   background-color: var(--main-color);
+   color: var(--bs-white);
+}
+.contact__with-page .system label.btn-main {
+   width: 100%;
+text-align: center;
+padding: 1rem !important;
+}
+.contact__with-page button[type="button"] {
+   background: #515d791c;
+   color: var(--main-color);
+}

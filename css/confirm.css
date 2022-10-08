@@ -1,0 +1,18 @@
+.input-group .form-control{
+   max-width: 60px;
+   margin-left: 10px;
+}
+.input-group input::-webkit-outer-spin-button{
+   -webkit-appearance: none;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
